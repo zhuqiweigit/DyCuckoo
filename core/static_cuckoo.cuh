@@ -1,5 +1,5 @@
-#ifndef DYNAMIC_TEST_H
-#define DYNAMIC_TEST_H
+#ifndef STATIC_CUCKOO_H
+#define STATIC_CUCKOO_H
 #include <helper_functions.h>
 #include <helper_cuda.h>
 #include <stdint.h>
