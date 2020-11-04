@@ -16,12 +16,12 @@ The code is tested on:
 * mkdir build && cd build
 * cmake .. && make
 * For static test: ```./static_test [file_name] [key_len] [load_factor]```
-  * ```file_name```  is the path of the input file. 
+  * ```file_name```  is the path of the input file. The file only contains keys saved in binary format.
   * ```key_len``` is the number of keys in the input file.
   * ```load_factor``` is the filled factor of the hash table.
   * Example: ```./static_test ../data/ali-unique.dat 4583941 0.85```
 * for dynamic test: ```./dynamic_test [file_name] [key_len] [r] [batch_size] [lower_bound] [upper_bound] [init_load_factor]```
-  * ```file_name```  is the path of the input file. 
+  * ```file_name```  is the path of the input file. The file only contains keys saved in binary format.
   * ```key_len``` is the number of keys in the input file.
   * ```r``` is the ratio of deletions over insertions in a batch.(r = 3 means the ratio is 0.3)
   * ```batch_size``` is the number of kv pairs in a single batch.
